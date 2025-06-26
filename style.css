@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #F6FFFF;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    height: 100vh;
+    margin-bottom: 8rem;
+}
+
+.header-nav-bar{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 2em;
+    color: #F62751;
+    font-weight: 700;
+}
+
+.header-nav{
+    font-size: 1.2em;
+    display: flex;
+    gap: 2.4rem;
+}
+
+.nav-menu{
+    text-decoration: none;
+    color: #272625;
+}
+
+.intro-card{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    top: 50%;
+
+    transform: translate(0,-50%);
+    gap:15rem;
+}
+
+.intro-text{
+    background-color: #272625;
+    color: #F6FFFF;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.intro-text h1{
+    font-size: 2.5em;
+}
+
+.intro-text p{
+    font-size: 1.5em;
+    color: #F62751;
+}
+
+.profile-pic{
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.76);
+}
+
+section{
+    width: 1000px;
+}
+
+.icon{
+    fill:#F62751;
+    width: 32px;
+    height: 32px;
+}
+
+.about-me-text{
+    margin-bottom: 8rem;
+}
+
+h2{
+    color:#F62751;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 2rem;
+}
+
+.about-me-p{
+    padding: 2.8rem 8rem;
+    font-size: 1.8rem;
+
+    background-color: #272625;
+    color: #F6FFFF;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.76);
+    border-radius: 10px;
+}
+
+.about-me-p span{
+    color: #F62751;
+    font-weight: 700;
+}
+
+.skills-grid{
+    width: 900px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10rem;
+    row-gap: 3rem;
+
+    margin-bottom: 5rem;
+}
+
+.databases{
+    display: grid;
+    margin-left: 20rem;
+}
+
+h2{
+    color:#F62751;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 2rem;
+    
+}
+
+h3{
+    color:#F62751;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.skills-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: #272625;
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.61);
+}
+
+.skills-card p{
+    color:#F6FFFF;
+    font-weight: 700;
+    padding-bottom: 0.8rem;
+}
+
+.skills-img{
+    margin: 0.8rem;
+    width:120px;
+    height: 120px;
+}
+
+.work-exp-card{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    padding: 0 5rem;
+    gap: 1rem;
+}
+
+.work-exp-text{
+    border: 2px solid #27262566;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    color: #272625;
+}
+
+.work-exp-text p{
+    margin-bottom: 0.5rem;
+}
+
+.job-title{
+    font-size: 2em;
+    font-weight: 700;
+    color: #F62751;
+}
+
+.job-company{
+    font-size: 1.5em;
+    color: #272625a5;
+}
+
+.job-period{
+    font-size: 1.3em;
+}
+
+.job-respond{
+    font-size: 1.1em;
+    line-height: 1.3;
+    padding: 0 2rem;
+}
+
+
+.work-exp-img{
+    width: 320px;
+    height: 240px;
+
+    border-radius: 18px;
+    box-shadow: 19px 2px 14px 2px rgba(0,0,0,0.61);
+}
+
+.rotated{
+    transform: rotate(90deg);
+}
+
+.rotate-1{
+    transform: rotate(-90deg);
+    box-shadow: -19px 2px 14px 2px rgba(0,0,0,0.61);
+}
