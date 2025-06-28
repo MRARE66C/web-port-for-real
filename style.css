@@ -356,3 +356,78 @@ footer p{
     margin-bottom: 0.8rem;
     color: #F62751;
 }
+
+@media (max-width:801px){
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    header{
+        margin-bottom: 12rem;
+    }
+
+    .header-nav-bar{
+        padding: 1rem;
+    }
+
+    .intro-card{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .skill-card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3{
+        margin:0
+    }
+
+    .skills-img{
+        margin: 0.8rem;
+        width:100px;
+        height: 100px;
+    }
+
+    .skills-grid{
+        width: 600px;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    .databases{
+        margin: 0 0 10rem 0;
+    }
+
+    .work-exp-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-exp-text{
+        margin-bottom: 3rem;
+    }
+
+    .project-container{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .project-inner{
+        gap:1rem
+    }
+
+    .contract-container{
+        width: 700px;
+    }
+
+    .contract-btn-container{
+        margin-bottom: 18rem;
+        display: flex;
+        gap:4rem;
+    }
+}
