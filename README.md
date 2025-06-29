@@ -174,15 +174,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Contact
-
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn]
-- **GitHub**: [Your GitHub]
-- **Facebook**: [Your Facebook]
-- **Instagram**: [Your Instagram]
-
 ---
 
 **Created by MRare236 (Siraphat Panya) on 26/06/2025**
